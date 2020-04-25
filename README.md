@@ -8,5 +8,6 @@ I have been learning much about music theory and composition in the last 6 month
  - favourite SNES game
  - programming
  - composition
+ 
 in order to create some SMW custom songs. My goal is to get a song published on smwcentral, you can follow my progress here on the main page for this community: 
 https://www.smwcentral.net/?p=profile&id=38324
