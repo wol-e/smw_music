@@ -3,7 +3,7 @@
 #SPC
 {
 	#author "wol_e"
-	#title "ghost house 2100"
+	#title "haunted house 2001"
 	#game "Custom song/SMW"
 	#length "1:08"
 	#comment ""
