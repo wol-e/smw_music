@@ -11,7 +11,7 @@ I have been learning much about music theory and composition in the last 6 month
  
 in order to create some SMW custom songs. My goal is to get a song published on smwcentral.net, the main page for this community.
 
-You can follow my progress here on: https://www.smwcentral.net/?p=profile&id=38324
+You can follow my progress here: https://www.smwcentral.net/?p=profile&id=38324
 
 In case you are interested in how this works, here is a great tutorial for creating music fiels for SMW: https://www.smwcentral.net/?p=viewthread&t=89606
 
