@@ -9,5 +9,12 @@ I have been learning much about music theory and composition in the last 6 month
  - programming
  - composition
  
-in order to create some SMW custom songs. My goal is to get a song published on smwcentral, you can follow my progress here on the main page for this community: 
-https://www.smwcentral.net/?p=profile&id=38324
+in order to create some SMW custom songs. My goal is to get a song published on smwcentral.net, the main page for this community.
+
+You can follow my progress here on: https://www.smwcentral.net/?p=profile&id=38324
+
+In case you are interested in how this works, here is a great tutorial for creating music fiels for SMW: https://www.smwcentral.net/?p=viewthread&t=89606
+
+Im also working on some shell scripts to simplfy the development part of composing SMW music here: https://github.com/wol-e/spc_tools
+
+Work in progress and ambitioned: I also work on a programm to automatically generate the source file for an SMW song from a MIDI file here: https://github.com/wol-e/midi_to_spc_template
