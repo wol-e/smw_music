@@ -9,12 +9,16 @@ I have been learning much about music theory and composition in the last 6 month
  - programming
  - composition
  
-in order to create some SMW custom songs. My goal is to get a song published on smwcentral.net, the main page for this community.
+in order to create some SMW custom songs. My first goal was to get a song published on smwcentral.net, the main page for this community. I magaed to do this with 'haunted house 2001', see song list below. I will keep composing according to my time and inspiration. Maybe, some day I'll have a song someone cosiders to use for a hack, tha would be nice.
 
-Currently there is only one song which is maybe close enough to a quality to get accepted some time, which is [haunted house 2001](haunted_house_2001)
+## Song list
+### Published
+ - Haunted house 2001: An unsettling piece for ghost houses and such. It's a bit weird and has some drawbacks. The beat and harmony is a bit naive and it's overall quite repetitive. However, I managed to achieve a qulity to get my first song published. I realy like the third section of it, maybe some day I'll create a new composition around it. Her you find the [Source](haunted_house_2001) adn the [publication](https://www.smwcentral.net/?p=section&a=details&id=22713) on smw centra.
 
-You can follow my progress here: https://www.smwcentral.net/?p=profile&id=38324
-
+### In development
+ - Unnamed String quartet: to be uploaded
+ 
+## Related links
 In case you are interested in how this works, here is a great tutorial for creating music fiels for SMW: https://www.smwcentral.net/?p=viewthread&t=89606
 
 Im also working on some shell scripts to simplfy the development part of composing SMW music here: https://github.com/wol-e/spc_tools
