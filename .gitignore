@@ -1,0 +1,8 @@
+# ignore zip files
+*.zip
+
+# ignore submission files
+*/current_submission
+
+# ignore rejections
+*/rejections

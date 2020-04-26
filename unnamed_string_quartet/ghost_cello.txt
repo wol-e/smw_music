@@ -1,0 +1,63 @@
+#amk 2
+
+#SPC
+{
+	#author "wol_e"
+	#title "ghost cello"
+	#game "Custom song/SMW"
+	#comment "not public"
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;:
+;;; #1 singing fridge ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#1
+
+;; adsr to start very soft
+@6 $ed$74$ed
+
+v150 o1
+
+[g1                     ]  ;; bar 1
+[f2    a2               ]  ;; bar 2
+[g1.. r4                ]  ;; bar 3 and 4
+[g1                     ]  ;; bar 5
+[g2            g2       ]  ;; bar 6
+[g1.. r4                ]  ;; bar 7 and 8
+[r1                     ]2  ;; bar 9
+
+;;;;;;;;;;;;;;;;;;;;;;;;:;;
+;;; #2 singing fridge 2 ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#2
+
+;; adsr to start very soft
+@6 $ed$74$ed
+
+v150 o2
+
+[c1                     ]  ;; bar 10
+[o1 b-2   o2 d2         ]  ;; bar 11
+[o2 c1.. r4             ]  ;; bar 12 and 13
+[g1                     ]  ;; bar 14
+[f2         a2          ]  ;; bar 15
+[g1.. r4                ]  ;; 16 and 17
+[r1                     ]2 ;; bar 18 to 19
+
+;;;;;;;;;;;;;;;;;;;;;;;;:;;
+;;; #2 singing fridge 3 ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#3
+
+;; adsr to start very soft
+@6 $ed$74$ed
+
+v100 o2
+
+[r1                     ]6 ;; bar 1 to 15
+[f1.. r4                ]   ;; 16 and 17
+[r1                     ]2 ;; bar 18 to 19
+
