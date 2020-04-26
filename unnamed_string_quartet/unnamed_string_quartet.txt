@@ -1,0 +1,35 @@
+#amk 2
+
+#SPC
+{
+	#author "wol_e"
+	#title "unnamed string quartet"
+	#game "Custom song/SMW"
+	#comment ""
+}
+
+; composition in key 
+
+#0
+
+@6 $ED$74$ED ; trumped with ADSR to make it sound like a contrabass (kind of)
+
+v200 o1
+
+g1 f2 a2 g1.. r4 g1 g2 g2 g1.. r4 r1
+
+#1
+
+@6 $ED$74$ED
+
+v200 o2
+
+c1 o1 b-2 o2 d2 o2 c1.. r4 g1 f2 a2 g1.. r4 r1
+
+#2
+
+@6 $ED$74$ED
+
+v150 o2
+
+[r2]12 f1.. r4 r1
