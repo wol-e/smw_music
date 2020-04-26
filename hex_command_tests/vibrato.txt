@@ -1,0 +1,36 @@
+#amk 2
+
+#SPC
+{
+	#author "wol_e"
+	#title "vibrato test"
+	#game "Custom song/SMW"
+	#comment ""
+}
+
+; composition in key 
+
+#0
+
+@4
+
+o3
+; no effect
+c1
+
+$DE$60$18$80
+c1
+$DF
+
+$DE$60$FF$80
+c1
+$DF
+
+$DE$60$FF$FF
+c1
+$DF
+
+$DE$60$18$FF
+c1
+$DF
+
