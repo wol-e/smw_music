@@ -16,7 +16,7 @@ in order to create some SMW custom songs. My first goal was to get a song publis
  - *Haunted house 2001*: An unsettling piece for ghost houses and such. It's a bit weird and has some drawbacks. The beat and harmony is a bit naive and it's overall quite repetitive. However, I managed to achieve a qulity to get my first song published. I realy like the third section of it, maybe some day I'll create a new composition around it. Here you find the [Source](haunted_house_2001) and the [publication](https://www.smwcentral.net/?p=section&a=details&id=22713) on smw central.
 
 ### In development
- - *Unnamed String quartet*: to be uploaded
+ - *Unnamed String quartet*: work in progress. A more conventional piece for stings for practicing composition essentials. [Source.](unnamed_string_quartet)
  
 ## Related links
 In case you are interested in how this works, here is a great tutorial for creating music fiels for SMW: https://www.smwcentral.net/?p=viewthread&t=89606
