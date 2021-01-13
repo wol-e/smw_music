@@ -19,7 +19,7 @@ in order to create some SMW custom songs. My first goal was to get a song publis
  - *Unnamed String quartet*: work in progress. A more conventional piece for strings. Intending to practice composition essentials. [Source.](unnamed_string_quartet)
  
 ## Related links
-In case you are interested in how this works, here is a great tutorial for creating music fiels for SMW: https://www.smwcentral.net/?p=viewthread&t=89606
+In case you are interested in how this works, here is a great tutorial for creating music files for SMW: https://www.smwcentral.net/?p=viewthread&t=89606
 
 Im also working on some shell scripts to simplfy the development part of composing SMW music here: https://github.com/wol-e/spc_tools
 
