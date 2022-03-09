@@ -9,11 +9,11 @@ I have been learning much about music theory and composition in the last 6 month
  - programming
  - composition
  
-in order to create some SMW custom songs. My first goal was to get a song published on smwcentral.net, the main page for this community. I managed to do this with 'haunted house 2001', see song list below. I will keep composing according to my time and inspiration. Maybe, some day I'll have a song someone cosiders to use for a hack, that would be nice.
+in order to create some SMW custom songs. My first goal was to get a song published on smwcentral.net, the main page for this community. I managed to do this with 'haunted house 2001', see song list below. I will hopefully keep composing according to my time and inspiration. Maybe, some day I'll have a song someone cosiders to use for a hack, that would be nice.
 
 ## Song list
 ### Published
- - *Haunted house 2001*: An unsettling piece for ghost houses and such. It's a bit weird and has some drawbacks. The beat and harmony is a bit naive and it's overall quite repetitive. However, I managed to achieve a qulity to get it published. I actually like the third section of it, maybe some day I'll create a new composition around it. Here you find the [Source](haunted_house_2001) and the [publication](https://www.smwcentral.net/?p=section&a=details&id=22713) on smw central.
+ - *Haunted house 2001*: An unsettling piece for ghost houses and such. It's a bit weird and has some drawbacks. The beat and harmony is a bit naive and it's overall quite repetitive. However, I managed to achieve a quality to get it published. I actually like the third section of it, maybe some day I'll create a new composition around it. Here you find the [Source](haunted_house_2001) and the [publication](https://www.smwcentral.net/?p=section&a=details&id=22713) on smw central.
 
 ### In development
  - *Unnamed String quartet*: work in progress. A more conventional piece for strings. Intending to practice composition essentials. [Source.](unnamed_string_quartet)
