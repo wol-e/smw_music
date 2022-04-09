@@ -1,8 +1,9 @@
-# smw_spc
-A collection of helpers for working with SPC files for Super Mario World custom music on Linux. Basically some scripts to conveniently handle common spc tasks like
+# smw_music/spc
+
+`spc_tool`is a helper for working with SPC files for Super Mario World custom music on Linux. Basically a scripts to conveniently handle common spc tasks like
 - Creating an spc from a txt file via Addmusick
 - Playback of spc via SPC Player 700
-- Converting spc to wav (development version)
+- Converting spc to wav (work in progress)
 
 ## Requirements
 
@@ -14,7 +15,7 @@ You need to
 
 ## Setup
 
-After downloading this directory the script 'spc_tool' needs to be marked as an executable via running `chmod +x scp_tool` on command line working inside the directory where the file 'spc_tool' is located (aka the directory of this readme). After this you cann call the script from command line via running `spc_tool` or maybe `./spc_tool` from this directory (if you know a little bit more you can move it somewhere else and add it to your path to call it from any folder)
+After clonign this repo the script 'spc_tool' needs to be marked as an executable via running `chmod +x scp_tool` on command line working inside the directory where the file 'spc_tool' is located (aka the directory of this readme). After this you cann call the script from command line via running `./spc_tool` from this directory (you can of course add it to your path to call it from any folder via `spc_tool`, this can be done for the current session via `source setip.sh`).
 
 An important setup step is you need to set environment variables for the locations of SPC700 player and AddmusicK. For example:
 
