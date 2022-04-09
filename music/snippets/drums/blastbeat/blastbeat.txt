@@ -1,0 +1,36 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "blastbeat"
+	#game "Custom song/SMW"
+	#length "0:10"
+	#comment "blastbeat"
+}
+
+; https://en.wikipedia.org/wiki/Blast_beat
+
+#0 w200 t50
+@10 ; snare drum
+
+v200 o4
+
+(1)[r16 c16 r16 c16] ; bar 1
+(1) ; bar 2
+
+#1
+v200 o4
+
+@21 ; bass drum
+
+(2)[c16 r16 c16 r16]
+(2)
+
+#2
+v200 o4
+
+@22 ; cymbal
+
+(3)[c16 r16 c16 r16]
+(3)

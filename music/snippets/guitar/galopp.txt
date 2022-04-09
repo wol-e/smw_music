@@ -1,0 +1,27 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "galopp"
+	#game "Custom song/SMW"
+	#length "0:10"
+	#comment "double bass"
+}
+
+
+#0 w200 t50
+
+@17 ; distortion guitar
+o2
+
+(2)[d16 r16 d16 d16 d16 r16 d16 r16 d16 d16 d16 r16 d16 d16 d16 r16]
+(2)
+
+#2
+v200 o4
+
+@22 ; cymbal
+
+(3)[c4 c4 c4 c4]
+(3)

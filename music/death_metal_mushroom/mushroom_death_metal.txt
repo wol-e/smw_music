@@ -1,0 +1,55 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "galopp palm mute"
+	#game "Custom song/SMW"
+	#length "2:00"
+	#comment "double bass"
+}
+
+; echo for channel 0
+$EF$03$50$50 ; $EF$bit format channel definition$left volume$right volume
+$F1$02$10$01 ; $f1$delay00 to 0F$reverb 00 to 80$fir filter whatever
+
+#0 w255 t50
+
+v200
+@17 $ed$7f$ec ; distortion guitar with low sustain
+o2
+
+(10)[d16 r16 d16 d16 d16 r16 d16 r16 d16 r16 d16 r16 d16 d16 d16 r16]
+(10)
+
+#1
+
+v100
+@17 $ed$7f$ec ; distortion guitar with low sustain
+o2
+
+(20)[g16 r16 g16 g16 g16 r16 g16 r16 g16 r16 g16 r16 g16 g16 g16 r16]
+(20)
+
+#6 v255
+@8 ; acoustic bass
+o1
+
+(70)[d16 r16 d32. d32. d32. d32. r16 d16 r16 d32. d32. d32. d32. r16 d32. d32. d32. d32. r16]
+(70)
+
+#3 v200
+;@10 ; snare drum
+
+o4
+
+(40)[@22 c8 c8 @10 c8 @22 c8 c8 c8 @10 c8 @22 c8]
+(40) ; bar 2
+
+#4
+v255 o4
+
+@21 ; bass drum
+
+(50)[c16 a16 c16 a16 c16 a16 c16 a16 c16 a16 c16 a16 c16 a16 c16 a16]
+(50)

@@ -1,0 +1,19 @@
+#amk 2
+
+#SPC
+{
+	#author "spc_tools"
+	#title "test"
+	#game "Custom song/SMW"
+	#length "0:10"
+	#comment "test for spc tool setup"
+}
+
+#0 w100 t50
+
+n1A ; noise
+
+v100 o4
+
+(1)[c32 r16. c32 r16.] ; bar 1
+(1) ; bar 2

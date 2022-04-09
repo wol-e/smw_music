@@ -1,0 +1,29 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "adsr anti-sustain example"
+	#game "Custom song/SMW"
+	#length "2:00"
+	#comment "double bass"
+}
+
+#0 w150 t50
+@17 $ed$7f$e0 c1r2
+@17 $ed$7e$e0 c1r2
+@17 $ed$7d$e0 c1r2
+@17 $ed$7c$e0 c1r2
+@17 $ed$7b$e0 c1r2
+@17 $ed$7a$e0 c1r2
+@17 $ed$79$e0 c1r2
+@17 $ed$78$e0 c1r2
+@17 $ed$77$e0 c1r2
+@17 $ed$76$e0 c1r2
+@17 $ed$75$e0 c1r2
+@17 $ed$74$e0 c1r2
+@17 $ed$73$e0 c1r2
+@17 $ed$72$e0 c1r2
+@17 $ed$71$e0 c1r2
+@17 $ed$70$e0 c1r2
+/r1

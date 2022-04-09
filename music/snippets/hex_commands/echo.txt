@@ -1,0 +1,27 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "echo"
+	#game "Custom song/SMW"
+	#length "2:00"
+	#comment "testing echoes"
+}
+
+; echo for channel 0
+$EF$01$50$50 ; $EF$bit format channel definition$left volume$right volume
+$F1$02$10$01 ; $f1$delay00 to 0F$reverb 00 to 80$fir filter whatever
+
+; for channel selection: set 8 bits corresponding to channels in descending order, e.g: 10000101 for adding echo to channels 7, 2 and 0. Convert to hex and you got it
+
+#1 w255 t50
+[@17 o4 c16 r16 o2 e16 e16 e16 r16 o4 c16 r16 o2 e16 e16 e16 r16 e16 e16 e16 r16]
+[o4 c4 c4 c4 r4]
+r1 r1
+
+#0
+v255 o2
+r1 r1
+[@17 o4 c16 r16 o2 e16 e16 e16 r16 o4 c16 r16 o2 e16 e16 e16 r16 e16 e16 e16 r16]
+[o4 c4 c4 c4 r4]

@@ -1,0 +1,29 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "adsr sustain example"
+	#game "Custom song/SMW"
+	#length "2:00"
+	#comment "double bass"
+}
+
+#0 w150 t50
+@17 $ed$7f$e0 c1r2
+@17 $ed$7f$e1 c1r2
+@17 $ed$7f$e2 c1r2
+@17 $ed$7f$e3 c1r2
+@17 $ed$7f$e4 c1r2
+@17 $ed$7f$e5 c1r2
+@17 $ed$7f$e6 c1r2
+@17 $ed$7f$e7 c1r2
+@17 $ed$7f$e8 c1r2
+@17 $ed$7f$e9 c1r2
+@17 $ed$7f$ea c1r2
+@17 $ed$7f$eb c1r2
+@17 $ed$7f$ec c1r2
+@17 $ed$7f$ed c1r2
+@17 $ed$7f$ee c1r2
+@17 $ed$7f$ef c1r2
+/r1

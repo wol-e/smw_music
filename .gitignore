@@ -6,3 +6,7 @@
 
 # ignore rejections
 */rejections
+
+# pycharm stuff
+.idea/*
+*/.idea/*

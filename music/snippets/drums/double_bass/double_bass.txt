@@ -1,0 +1,35 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "double bass"
+	#game "Custom song/SMW"
+	#length "0:10"
+	#comment "double bass"
+}
+
+
+#0 w200 t50
+@10 ; snare drum
+
+v200 o4
+
+(1)[r4 c8 r8 r4 c8 r8] ; bar 1
+(1) ; bar 2
+
+#1
+v200 o4
+
+@21 ; bass drum
+
+(2)[c16 a16 c16 a16 c16 a16 c16 a16 c16 a16 c16 a16 c16 a16 c16 a16]
+(2)
+
+#2
+v200 o4
+
+@22 ; cymbal
+
+(3)[c8 c8 c8 c8 c8 c8 c8 c8]
+(3)
