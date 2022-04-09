@@ -1,0 +1,28 @@
+#amk 2
+
+#SPC
+{
+	#author "spc_tools"
+	#title "test"
+	#game "Custom song/SMW"
+	#length "0:10"
+	#comment "test for spc tool setup"
+}
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;:
+;;; @4 Drums rhythm     ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#0 w200 t50
+
+v200 o3
+
+(1)[a4 c4 c4 c4] ; bar 1
+(1) ; bar 2
+
+#1
+
+v200 o4
+
+r1 c4 e4 g4 > c4

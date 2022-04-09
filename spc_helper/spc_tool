@@ -1,0 +1,128 @@
+#!/bin/bash
+
+# Script wrapping some common tools you want to use when creating SPC files.
+# Since common tools are mostly windows, we require wine to emulate things
+
+if [[ $# -eq 0 ]] ; then
+    echo "use -h for help"
+    exit 0
+fi
+
+if [ "$1" == "-h" ]; then
+  echo "Usage: `basename $0`
+
+  -h   display this help text
+  play   launches SPC 700 Player via wine and plays spc file provided as 2nd argument.
+  build   converts a composition in .txt format via AddmusicK and wine to an .spc file.
+  wav   converts an .spc file to a .wav audio file via ffmpeg (in development, results may be poor)"
+  exit 0
+fi
+
+
+spc700_dir=$SPC700_DIR
+
+if [ "$1" == "play" ]; then
+  # check if spcplay.exe can be found
+  if [[ ! -e "${spc700_dir}/spcplay.exe" ]] ; then
+      echo "Error: spcplay.exe can not be found in the set directory. Set directory is ${spc700_dir}.
+      To fix this set an env variable for your spc700 directory as SPC700_DIR.
+      Maybe you need to download SPC Player 700 first."
+      exit 0
+  fi
+
+  if [[ $# -eq 1 ]] ; then
+      echo 'Error: Please provide an SPC file for playback.'
+      exit 0
+  fi
+
+  if [[ ! -f "$2" ]] ; then
+      echo "Error: The file ${2} does not exist in this directory"
+      exit 0
+  fi
+
+  wine "${spc700_dir}/spcplay.exe" "${2}"
+  exit 0
+fi
+
+
+amk_dir=$AMK_DIR
+
+if [ "$1" == "build" ]; then
+  # check if AddmusicK.exe can be found
+  if [[ ! -e "${amk_dir}/AddmusicK.exe" ]] ; then
+      echo "Error: AddmusicK.exe can not be found in the set directory. Set directory is ${amk_dir}.
+      To fix this set an env variable for your spc700 directory as AMK_DIR.
+      Maybe you need to download AddmusicK first."
+      exit 0
+  fi
+
+  if [[ $# -eq 1 ]] ; then
+      echo 'Error: Please provide a .txt file of your composition as last argument.'
+      exit 0
+  fi
+
+  if [[ ! -f "$2" ]] ; then
+      echo "Error: The file ${2} does not exist in this directory"
+      exit 0
+  fi
+
+  if [[("${2: -4}" != ".txt")]] ; then
+      echo "Error: the provided file needs to be a .txt file"
+      exit 0
+  fi
+
+  source_dir=$(echo $PWD)
+
+  # To build the SPC, AMK requires to copy the composition to the /music folder of AMK 
+  cp "${2}" "${amk_dir}/music/${2}"
+
+  # build the SPC with AMK via wine
+  cd $amk_dir
+  wine AddmusicK.exe -norom "${2}"
+
+  # copy the SPC to the source dir
+  spc_filename="${2:0:-4}.spc"
+  cp "${amk_dir}/SPCs/${spc_filename}" "${source_dir}/${spc_filename}"
+  exit 0
+
+  # TODO: extend this script to give the option to add the SPC to a SMW rom.
+  # Also, maybe provide the option to delete the SPC from the AMK/music folder when not adding the musik.
+fi
+
+#### convert spc to wav #####
+#############################
+
+if [ "$1" == "wav" ]; then
+  if [[ $# -eq 1 ]] ; then
+      echo 'Error: Please provide a .spc file for conversion and a .wav file for target.'
+      exit 0
+  fi
+
+  if [[ $# -eq 2 ]] ; then
+      echo 'Error: Please provide a .spc file for conversion and a .wav file for target'
+      exit 0
+  fi
+
+  if [[("${2: -4}" != ".spc")]] ; then
+      echo "Error: the fisrt argument after wav needs to be a .spc file"
+      exit 0
+  fi
+
+  if [[("${3: -4}" != ".wav")]] ; then
+      echo "Error: the second argument after wav needs to be a .wav file"
+      exit 0
+  fi
+
+  if [[ $# -eq 3 ]] ; then
+      echo "Error: Please provide a time in format hh:mm:ss for target file in last argument
+      (SPC files are supposed to loop so a cutoff time is required)"
+      exit 0
+  fi
+
+  #TODO: Some error catcing for the 3rd argument providing the duration of the target file
+
+  ffmpeg -i ${2} -t ${4} -acodec pcm_u8 -ar 44100 ${3}
+  #TODO: The sound quality of the output often is very bad. Find ways to improve.
+
+  exit 0
+fi
