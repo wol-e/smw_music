@@ -1,0 +1,63 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "power chords 2"
+	#game "Custom song/SMW"
+	#length "1:10"
+	#comment "power?"
+}
+
+
+#0 w200 t50
+
+@17 ; distortion guitar
+o2
+
+[e2. r4]
+[e2. r4]
+[e2. r4]
+[e2. r4]
+[e2. r4]
+
+o3
+[c2. r4]
+[c2. r4]
+[c2. r4]
+[c2. r4]
+[c2. r4]
+
+#1
+v200 @17
+
+o2
+[r1] ; single note
+[a2. r4] ; power 4th
+[b2. r4] ; power 5th
+[b2. r4] ; power 5th anf 8th (8th in next channel)
+[r1] ; power octave (8th in next channel)
+
+o3
+[r1] ; single note
+[f2. r4] ; power 4th
+[g2. r4] ; power 5th
+[g2. r4] ; power 5th anf 8th (8th in next channel)
+[r1] ; power octave (8th in next channel)
+
+#2
+v200 @17
+
+o2
+[r1]
+[r1]
+[r1]
+o3 [e2. r4]
+o3 [e2. r4]
+
+o4
+[r1]
+[r1]
+[r1]
+[c2. r4]
+[c2. r4]

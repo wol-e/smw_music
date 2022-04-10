@@ -1,0 +1,42 @@
+#amk 2
+
+#SPC
+{
+	#author "wol-e"
+	#title "power chords"
+	#game "Custom song/SMW"
+	#length "1:10"
+	#comment "power?"
+}
+
+
+#0 w200 t50
+
+@17 ; distortion guitar
+o2
+
+(1)[e4 f4 g4 a4]
+(1)
+(1)
+(1)
+
+#1
+v200
+@17
+
+o2
+r1
+(2)[a4 b4 o3 c4 d4]
+(2)
+o3 [e4 f4 g4 a4]
+
+#2
+v200 o4
+
+@17
+
+r1
+r1
+o3 [e4 f4 g4 a4]
+r1
+
