@@ -11,15 +11,14 @@
 
 ; https://en.wikipedia.org/wiki/Blast_beat
 
-#0 w200 t50
-@10 ; snare drum
+#0 w200 t50 ; cymbal and snare
 
 v200 o4
 
-(1)[r16 c16 r16 c16] ; bar 1
+(1)[@22 c16 @10 c16 @22 c16 @10 c16] ; bar 1
 (1) ; bar 2
 
-#1
+#2
 v200 o4
 
 @21 ; bass drum
@@ -27,10 +26,3 @@ v200 o4
 (2)[c16 r16 c16 r16]
 (2)
 
-#2
-v200 o4
-
-@22 ; cymbal
-
-(3)[c16 r16 c16 r16]
-(3)
